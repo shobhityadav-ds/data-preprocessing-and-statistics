@@ -1,22 +1,28 @@
-# data-preprocessing-and-feature-engineering
-# 📊 Data Preprocessing & Feature Engineering
+# 📊 Data Preprocessing, Feature Engineering & Statistics
 
 ## 🚀 Overview
 
-This repository focuses on essential data preprocessing techniques used in Data Science and Machine Learning. It includes hands-on Jupyter notebooks demonstrating real-world data preparation steps.
+This repository covers essential data preprocessing techniques along with fundamental statistical concepts used in Data Science and Machine Learning. It provides hands-on notebooks for practical understanding.
 
 ---
 
 ## 🎯 Objectives
 
 * Clean and prepare raw data
+* Understand statistical concepts behind data
 * Handle missing values and outliers
-* Transform categorical data into numerical format
-* Select important features for model building
+* Transform and select important features
 
 ---
 
 ## 📚 Topics Covered
+
+### 📐 Statistics
+
+* Mean, Median, Mode
+* Variance and Standard Deviation
+* Distribution (Normal Distribution)
+* Correlation
 
 ### 🔍 Outlier Detection
 
@@ -44,14 +50,15 @@ This repository focuses on essential data preprocessing techniques used in Data 
 
 ## 📂 Project Structure
 
-```id="b7k7o7"
-data-preprocessing-and-feature-engineering/
+```id="2nzk3o"
+data-preprocessing-and-statistics/
 │
 ├── notebooks/
-│   ├── 01_outlier_detection.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_feature_encoding.ipynb
-│   ├── 04_feature_selection.ipynb
+│   ├── 01_statistics.ipynb
+│   ├── 02_outlier_detection.ipynb
+│   ├── 03_data_cleaning.ipynb
+│   ├── 04_feature_encoding.ipynb
+│   ├── 05_feature_selection.ipynb
 │
 ├── data/
 │   └── sample_dataset.csv
@@ -75,17 +82,17 @@ data-preprocessing-and-feature-engineering/
 ## ▶️ How to Use
 
 1. Clone the repository
-2. Open notebooks in Jupyter Notebook or Google Colab
-3. Run each notebook step-by-step
-4. Understand preprocessing workflow
+2. Open notebooks in Google Colab or Jupyter Notebook
+3. Run notebooks step-by-step
+4. Practice with your own dataset
 
 ---
 
 ## 🌟 Future Improvements
 
-* Add pipeline-based preprocessing
-* Include real-world datasets
-* Integrate with machine learning models
+* Add advanced statistics concepts
+* Build preprocessing pipelines
+* Integrate with ML models
 
 ---
 
@@ -97,4 +104,5 @@ data-preprocessing-and-feature-engineering/
 
 ## 💡 Note
 
-This repository is part of my Data Science learning journey focusing on real-world data preprocessing techniques.
+This repository is part of my learning journey in Data Science, focusing on preprocessing and statistical understanding.
+
